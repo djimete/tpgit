@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cv.css">
+    <title>Mon cv</title>
+
+
+</head>
+<body>
+    <header>
+        <h1>Mon cv</h1>
+    </header>
+    <nav>
+        <a href="#personnel">données personnelles</a>
+        <a href="#cursus">cursus scolaire</a>
+        <a href="expérience">Expériences professionnelles</a>
+        <a href="contact">Contacter moi</a>
+    </nav>
+    <section id="personnel">
+        <h2>données personnelles</h2> 
+        <img src="f2d35ab4-e652-4994-8d56-d013c4df9bd4.jpg" alt="photo de profil">
+        <p>Nom: Metta djimou</p>
+        <p>Email: djimou.meta081@gmail.com</p>
+        <p>Téléphone: +221 78 450 28 78</p>
+    </section>
+    <section id="cursus">
+        <h2>cursus scolaire</h2>
+        <ul>
+            <li>Baccalauréat L2- Lycée de Simbadi-Brassou, 2023</li>
+            <li>Première Année Informatique- ISEPAT de Diamniadio- 2023-2025</li>
+        </ul>
+    </section>
+    <section id="expérience">
+        <h2>Expériences professionnelles</h2> 
+        <ul>
+            <li>saisir des documents</li>  
+            <li>Créer un site web</li> 
+            <li>Configurer des adresses réseaux</li> 
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contacter moi</h2> 
+        <form action="djimou.meta081@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Nom :</label> 
+            <input type="text" id="name"name="name"required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email"required>
+
+            <label for="message">message :</label>
+            <textarea id="message" name="message" rows="4"required></textarea>
+
+            <button type="submit">Valider</button>
+            <button type="reset">Réinitialiser</button>
+        </form>
+    </section>
+    <footer>
+        &copy;  2025 metta djimou
+    </footer>           
+
+    
+</body>
+</html>
